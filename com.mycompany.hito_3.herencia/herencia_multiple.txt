@@ -1,0 +1,25 @@
+//Previamente se han explicado con un ejemplo de código útil la herencia simple en java.
+
+//En java una subclase solo puede tener una superclase, es decir, solo puede heredar de una clase, 
+//impidiendo la herencia múltiple en este lenguaje de programación.
+
+//Lo más cercano a la herencia múltiple de java se puede realizar mediante interfaces con las que la clase heredará 
+//los métodos de la interfaz mediante la palabra reservada
+//'implements' seguida del nombre de la interfaz. Si la clase a la que se le va a implementar una intefaz ya tiene herencia 
+//de una superclase se haría de la siguiente manera:
+
+
+
+public class Perro extends Animal implements Omnivoro{
+
+}
+
+
+public interface Omnivoro{
+
+}
+
+
+public abstract class Animal{
+
+}
